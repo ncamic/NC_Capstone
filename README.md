@@ -14,7 +14,7 @@ U.S. Census Bureau Business Trends and Outlook Survey (BTOS)
 These datasets are joined by state acronym (PRIM_STATE / State) to support analysis of how AI usage may be impacting employment patterns across states and time.
 
 # Data Summary
-BLS Occupational Data
+BLS Occupational Data  
 Rows	1,500  
 Columns	33  
 Time Period	Annual (2020–2024 across files)  
