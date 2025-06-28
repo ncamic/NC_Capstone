@@ -26,13 +26,13 @@ Install the requirements.txt file to install necessary packages by running pip i
 
 # Data Summary
 BLS Occupational Data  
-Rows	1,500  
+Rows	185,755  
 Columns	33  
 Time Period	Annual (2020–2024 across files)  
 Source Files	state_M2020_dl.xlsx through state_M2024_dl.xlsx
 
 BTOS AI Adoption Data  
-Rows	600    
+Rows	5,036    
 Columns	82  
 Time Period	Biweekly, 2022–2025  
 Source Files	State.xlsx, State_v1.xlsx
