@@ -31,24 +31,7 @@ Granularity	State × Question/Answer × Period
 Source Files	State.xlsx, State_v1.xlsx
 
 # Data Dictionary
-BLS Data
-Column	Description
-AREA_TITLE	Full name of the state or metro area
-PRIM_STATE	Two-letter state abbreviation (e.g. CA, TX)
-OCC_CODE	Standard occupational classification (SOC) code
-OCC_TITLE	Name of the occupation
-TOT_EMP	Total estimated employment
-H_MEAN	Mean hourly wage
-A_MEAN	Mean annual wage
-source_file	Source Excel file name
-(+ wage percentiles, industry codes, etc.)	
-
-Census BTOS Data
-Column	  Description
-State	    Two-letter state abbreviation
-Question	Text of the AI-related survey question
-Answer	  Response category (e.g. “Yes, currently use AI”)
-202xxx	  Percent of businesses responding that week
+insert link here
 
 
 # Data Sources
