@@ -60,9 +60,9 @@ Census Bureau Business Trends and Outlook Survey (BTOS):
 
 
 # Project Objective:
-Track adoption of AI by state over time
-Compare employment trends across occupations and states
-Join both datasets by State to assess possible displacement or complementarity of labor and AI
+Track adoption of AI by state over time (using sentiment as a proxy.) 
+Compare employment trends across occupations and states.
+Join both datasets by State to assess possible displacement or complementarity of labor and AI.
 
 # Summary Notes for Module 3 Submission:
 
