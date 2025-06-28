@@ -13,6 +13,17 @@ U.S. Census Bureau Business Trends and Outlook Survey (BTOS)
 
 These datasets are joined by state acronym (PRIM_STATE / State) to support analysis of how AI usage may be impacting employment patterns across states and time.
 
+# Running the Program:
+
+The following is a guide to running the project files locally:
+
+Fork the repository    
+Clone the repository to your Github account  
+Access the repository from your command line or preferred CMD software  
+Install a virtual environment. The command in Gitbash is python -m venv venv  
+Activate the virtual environment. The command in Gitbash is source venv/scripts/activate  
+Install the requirements.txt file to install necessary packages by running pip install requirements.txt  
+
 # Data Summary
 BLS Occupational Data  
 Rows	1,500  
