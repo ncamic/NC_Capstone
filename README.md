@@ -15,19 +15,15 @@ These datasets are joined by state acronym (PRIM_STATE / State) to support analy
 
 # Data Summary
 BLS Occupational Data
-Detail	Value
-Rows	1,500 (sample)
-Columns	33
-Time Period	Annual (2020–2024 across files)
-Granularity	State × Occupation
+Rows	1,500  
+Columns	33  
+Time Period	Annual (2020–2024 across files)  
 Source Files	state_M2020_dl.xlsx through state_M2024_dl.xlsx
 
-BTOS AI Adoption Data
-Detail	Value
-Rows	600 (sample)
-Columns	82
-Time Period	Biweekly, 2022–2025
-Granularity	State × Question/Answer × Period
+BTOS AI Adoption Data  
+Rows	600    
+Columns	82  
+Time Period	Biweekly, 2022–2025  
 Source Files	State.xlsx, State_v1.xlsx
 
 # Data Dictionary
