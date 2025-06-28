@@ -13,7 +13,7 @@ U.S. Census Bureau Business Trends and Outlook Survey (BTOS)
 
 These datasets are joined by state acronym (PRIM_STATE / State) to support analysis of how AI usage may be impacting employment patterns across states and time.
 
-Data Summary
+# Data Summary
 BLS Occupational Data
 Detail	Value
 Rows	1,500 (sample)
@@ -30,7 +30,7 @@ Time Period	Biweekly, 2022–2025
 Granularity	State × Question/Answer × Period
 Source Files	State.xlsx, State_v1.xlsx
 
-Data Dictionary
+# Data Dictionary
 BLS Data
 Column	Description
 AREA_TITLE	Full name of the state or metro area
@@ -51,7 +51,7 @@ Answer	  Response category (e.g. “Yes, currently use AI”)
 202xxx	  Percent of businesses responding that week
 
 
-Data Sources
+# Data Sources
 BLS Occupational Employment and Wage Statistics (OEWS):
 [https://www.bls.gov/oes/](https://www.bls.gov/oes/tables.htm)
 
@@ -59,12 +59,12 @@ Census Bureau Business Trends and Outlook Survey (BTOS):
 [https://www.census.gov/econ/bfs/](https://www.census.gov/hfp/btos/data_downloads?utm_source=chatgpt.com)
 
 
-Project Objective:
+# Project Objective:
 Track adoption of AI by state over time
 Compare employment trends across occupations and states
 Join both datasets by State to assess possible displacement or complementarity of labor and AI
 
-Summary Notes for Module 3 Submission:
+# Summary Notes for Module 3 Submission:
 
 I intend to look primarily at tech related occupational data by U.S. State (using job codes) and compare that with the more qualitative Census Business Outlook survey questions which pertain to A.I. to compare at a State and occupational level over time how A.I. business sentiment has correlated with employment figures. I plan to also explore other occupational job codes outside of tech but will start there. 
 
