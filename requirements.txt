@@ -1,1 +1,6 @@
-pandas\nopenpyxl\njupyter\nnbformat
+matplotlib
+numpy
+pandas
+pandasql
+seaborn
+sqlite3
