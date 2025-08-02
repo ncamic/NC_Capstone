@@ -18,7 +18,10 @@ These datasets are joined by state acronym (PRIM_STATE / State) to support analy
 The following is a guide to running the project files locally:
 
 Fork the repository    
-Clone the repository to your Github account  
+Clone the repository to your Github account 
+    ```bash
+    git clone https://github.com/username/NC_Capstone.git
+    cd NC_Capstone
 Access the repository from your command line or preferred CMD software  
 Install a virtual environment. The command in Gitbash is python -m venv venv  
 Activate the virtual environment. The command in Gitbash is source venv/scripts/activate  
@@ -38,7 +41,7 @@ Time Period	Biweekly, 2022–2025
 Source Files	State.xlsx, State_v1.xlsx
 
 # Data Dictionary
-insert link here
+https://github.com/ncamic/NC_Capstone/blob/main/capstone_data_dictionary.ipynb
 
 
 # Data Sources
@@ -61,5 +64,19 @@ I intend to look primarily at tech related occupational data by U.S. State (usin
 I plan to graph on time-series charts employment trends in comparison to business A.I. sentiment in Tableau (using cleaned and curated Python data) to be able to dynamically look for interesting trends in the relationship between business A.I. sentiment and employment by State and occupational groups to see if there is an effect from A.I. "enthusiam" (perhaps a proxy for adoption) on employment in any particular occupational areas (again particulary interested in tech but will look elsewhere as well.)
 
 I will need to bucket the numerous job codes into higher level occupational categories and that work is not completed yet but I intend to do so for ease of analysis and will publish those groupings within this repository. 
+
+# Technologies Used
+
+Python — The main programming language used for data processing.
+Pandas — For cleaning, joining, and manipulating large datasets.
+NumPy — For numerical operations and handling large data arrays efficiently.
+Matplotlib & Seaborn — For creating initial visualizations and exploring trends in the data.
+pandasql — For using SQL queries directly on Pandas DataFrames during data exploration.
+SQLite3 — For lightweight database operations during development.
+Jupyter Notebook — For combining code, explanations, and results in an easy-to-follow format.
+
+# Overall Project Summary
+
+My primary goal with this analysis was to explore the relationship between business A.I. sentiment as tracked by the U.S. Census Bureau against employment trends over the same period as tracked by the U.S. Bureau of Labor Statistics. Ultimately, at a regional level there appeared to be a strong negative correlation between A.I. sentiment and tech labor employment, however, at a state level this correlation became much less strong. To me this suggested that so far there is likely not much of a relationship between A.I. sentiment and tech employment, but the issue may worth watching given the high level correlation that the data presented. Some challenges I faced during this project were that BLS only publishes data annually, so while full year 2024 is not bad to have, we are missing 6 months of data in 2025 effectively - and with A.I. change occurs rapidly. I also found the data to be very rich in terms of what was available, and originally I would have liked to break down the relationship of A.I. to non-tech jobs in several categories, but that could go in many directions, and in the interest of time and applicability I chose to focus on tech jobs.  
 
 
